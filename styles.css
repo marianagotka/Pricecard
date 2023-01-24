@@ -30,9 +30,16 @@
 }
 
 .page {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-table {
   height: 1000px;
   width: 1440px;
-  background-color: #f2f2f2;
+  background-color: #000;
   padding: 115px 132px;
   display: flex;
   align-items: center;
@@ -41,6 +48,7 @@
 
 .price-card {
   height: 770px;
+  width: 380px;
   background-color: #334247;
   padding: 33px 0px 40px 0px;
   margin-right: 18px;
@@ -119,7 +127,7 @@ div .list__item:nth-child(odd) {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 350px;
+  margin-left: 270px;
 }
 
 /*# sourceMappingURL=styles.css.map */
