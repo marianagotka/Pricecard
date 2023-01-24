@@ -30,6 +30,8 @@
 }
 
 .page {
+  width: 100vw;
+  height: 100vh;
   background-color: #f2f2f2;
   display: flex;
   justify-content: center;
@@ -50,7 +52,7 @@
   height: 770px;
   width: 380px;
   background-color: #334247;
-  padding: 33px 0px 40px 0px;
+  padding-top: 33px;
   margin-right: 18px;
   overflow: hidden;
   position: relative;
