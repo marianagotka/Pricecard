@@ -33,12 +33,9 @@
   height: 100vh;
   background-color: #141b1c;
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .price-tables {
-  padding: 115px 132px;
   display: flex;
   margin: auto;
 }
@@ -48,6 +45,7 @@
   width: 380px;
   background-color: #334247;
   padding-top: 33px;
+  margin: 0;
   margin-right: 18px;
   overflow: hidden;
   position: relative;
@@ -72,6 +70,10 @@
   line-height: 18px;
   text-align: center;
   margin: 40px 26px;
+}
+
+.price-card:last-child {
+  margin-right: 0;
 }
 
 .price__basic {

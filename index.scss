@@ -7,14 +7,11 @@
   height: 100vh;
   background-color: #141b1c;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  // justify-content: center;
+  // align-items: center;
 }
 .price-tables {
-  padding: 115px 132px;
   display: flex;
-  // align-items: center;
-  // justify-content: center;
   margin: auto;
 }
 .price-card {
@@ -22,6 +19,7 @@
   width: 380px;
   background-color: #334247;
   padding-top: 33px;
+  margin: 0;
   margin-right: 18px;
   overflow: hidden;
   position: relative;
@@ -47,6 +45,9 @@
     text-align: center;
     margin: 40px 26px;
   }
+}
+.price-card:last-child {
+  margin-right: 0;
 }
 .price__basic {
   background: #5bb189;
