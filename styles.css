@@ -16,6 +16,7 @@
   line-height: 17px;
   border: none;
   padding: 0px;
+  cursor: pointer;
 }
 
 .price-card__price {
@@ -39,7 +40,7 @@
 
 .price-tables {
   display: flex;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .price-card {
