@@ -7,8 +7,8 @@
   height: 100vh;
   background-color: #141b1c;
   display: flex;
-  // justify-content: center;
-  // align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .price-tables {
   display: flex;
@@ -19,6 +19,7 @@
   width: 380px;
   background-color: #334247;
   padding-top: 33px;
+  padding-bottom: 40px;
   margin: 0;
   margin-right: 18px;
   overflow: hidden;
